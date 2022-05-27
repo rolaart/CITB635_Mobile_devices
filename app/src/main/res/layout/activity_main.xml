@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Text "Sign up" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="4dp"
+        />
+
+    <!-- Username -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_sign_up"
+        android:hint="Username"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="30dp"
+        />
+
+    <!-- E-mail -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="E-mail"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="30dp"
+        />
+
+    <!-- Password -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_sign_up"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="30dp"
+        />
+
+    <!-- Re-enter password -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repassword"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="30dp"
+        />
+
+    <!-- Register button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/sign_up"
+        android:text="Register"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <!-- Log in transfer -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/log_in"
+        android:text="Already have an account?"
+        android:textSize="15dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        />
+    
+</LinearLayout>
